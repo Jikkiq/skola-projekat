@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Planet</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pizza Planet</h1>
+
+        <nav>
+            <a href="index.html">Početna</a>
+            <a href="o-nama.html">O nama</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h2>Najbolja pizza u gradu</h2>
+            <p>Izaberi svoju omiljenu pizzu!</p>
+        </section>
+
+        <section class="porudzbina">
+
+            <h2>Napravi porudžbinu</h2>
+
+            <label>Ime:</label>
+            <input type="text" id="ime">
+
+            <label>Izaberi pizzu:</label>
+            <select id="pizza">
+                <option value="Capricciosa">Capricciosa</option>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Vegetariana">Vegetariana</option>
+            </select>
+
+            <button id="poruciBtn">Poruči</button>
+
+            <p id="rezultat"></p>
+
+        </section>
+
+        <section class="bojaSekcija">
+            <h2>Promeni boju sajta</h2>
+
+            <button id="darkBtn">Dark mode</button>
+            <button id="lightBtn">Light mode</button>
+        </section>
+
+        <section class="komentari">
+            <h2>Ostavi komentar</h2>
+
+            <input type="text" id="komentarInput" placeholder="Unesi komentar">
+
+            <button id="dodajKomentar">Dodaj komentar</button>
+
+            <ul id="listaKomentara"></ul>
+        </section>
+
+    </main>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
